@@ -1,0 +1,45 @@
+
+find -name "*bf*.mp3"  | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  bftt.html;
+find -name "*dr*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  drtt.html; 
+find -name "*gd*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  gdtt.html; 
+find -name "*ghz*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  hztt.html; 
+find -name "*gx*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  gxtt.html; 
+find -name "*hf*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  hftt.html; 
+find -name "*jt*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  jttt.html; 
+find -name "*jy*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  jytt.html; 
+find -name "*lp*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  lptt.html; 
+find -name "*lr*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  lrtt.html; 
+find -name "*lx*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  lxtt.html; 
+find -name "*qs*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  qstt.html; 
+find -name "*wj*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  wjtt.html; 
+find -name "*xf*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  xftt.html; 
+find -name "*xy*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  xytt.html; 
+find -name "*xzf*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  xzftt.html; 
+find -name "*lxl*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  lxltt.html;
+
+
+find -name "*zlb*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  zlbtt.html;
+find -name "*fd*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  fdtt.html;
+find -name "*lyh*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  lyhtt.html;
+find -name "*mxj*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  mxjtt.html;
+find -name "*sy*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  sytt.html;
+find -name "*ybj*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  ybjtt.html;
+find -name "*nxd*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  nxdtt.html;
+find -name "*wzh*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  wzhtt.html;
+find -name "*lsl*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  lsltt.html;
+find -name "*xs*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  xstt.html;
+find -name "zg*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  zgtt.html;
+find -name "ws*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  wstt.html;
+find -name "zx*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  zxtt.html;
+find -name "ln*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  lntt.html;
+find -name "zyf*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  zyftt.html;
+find -name "sz*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  sztt.html;
+find -name "xf*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  xftt.html;
+find -name "zw*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  zwtt.html;
+find -name "lj*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$5"</li>"}' >  ljtt.html;
+find -name "znmx*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$5"</li>"}' >  znmxtt.html;
+find -name "wlm*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$6"</li>"}' >  wlmtt.html;
+find -name "wtj*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$5"</li>"}' >  wtjtt.html;
+find -name "leijun*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$5"</li>"}' >  leijuntt.html;
+find ./jour/*/*/*/ -name "*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$7"</li>"}' > tingtt.html;
+mv *t.html /data/dd/dd/temp;

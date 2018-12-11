@@ -1,0 +1,11 @@
+rm *.tmp;
+rm *123.html;
+find *.html >t1.tmp;
+find *.html >t0.tmp;
+sed -i 's/^/cat head.txt /g' t1.tmp; 
+sed -i 's/$/ >/g' t1.tmp;
+sed -i "s/\.html/123\.html;/g" t0.tmp;
+paste t1.tmp t0.tmp >2.txt;
+chmod 777 2.txt;
+
+

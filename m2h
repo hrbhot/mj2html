@@ -1,0 +1,9 @@
+rm *.html;   
+convmv --notest -f gbk -t utf8 -r jour; 
+find -name *.mp3 | sort| grep -v index.html| awk '{print "<a href=\"./"$0"\">"$0"</a><br/>"}' > 1.html;  
+sed -i '1i<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />' 1.html;
+
+find -name *.jpg | sort| grep -v index.html| awk '{print "<a href=\"./"$0"\"    >"$0"</a><br/>"}' > 2.html; 
+
+
+sed -i '1i<meta http-equiv="Content-Type" content="text/html; charset=utf-8"     />' 2.html;

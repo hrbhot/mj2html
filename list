@@ -1,0 +1,2 @@
+find -name "*.html" | sort| grep -v index.html| awk '{print "<a href=\"./"$0"\">"$0"</a><br/>"}' > list.html; 
+sed -i "s/>\.\//>/g" list.html   
