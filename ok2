@@ -1,3 +1,3 @@
 #!/bin/bash
-sh /data/dd/dd/list
-sh /data/dd/dd/l3
+sh list
+sh l3
