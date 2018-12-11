@@ -1,2 +1,2 @@
-rm /data/dd/dd/*tt123.html;
-mv *tt123.html /data/dd/dd;
+rm *tt123.html;
+mv *tt123.html ../;
