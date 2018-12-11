@@ -1,4 +1,4 @@
-#说明
+# Readme
 Find mp3/jpg files, and generate list.html to browse.
 把下载的mp3和jpg按名字归类成html静态文件，方便学习。
 
@@ -8,8 +8,11 @@ Find mp3/jpg files, and generate list.html to browse.
 ## m4a to mp3
 自动把m4a 转成mp3格式
 
-##jenkins
+## jenkins
 Put the process in Jenkins .Too cool
+![image](http://github.com/hrbhot/mj2html/raw/master/images/jenkins.jpg)
+
+
 
 写的比较傻瓜，误喷。
 
