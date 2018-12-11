@@ -1,6 +1,6 @@
 #!/bin/bash
-sh /data/dd/dd/temp/1.txt
-sh /data/dd/dd/temp/2.txt
-sh /data/dd/dd/temp/3.txt
+sh 1.txt
+sh 2.txt
+sh 3.txt
 
 
