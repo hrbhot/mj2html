@@ -1,5 +1,5 @@
 #!/bin/bash
-sh /data/dd/dd/m2h
-sh /data/dd/dd/bf
-sh /data/dd/dd/bf1
-# sh /data/dd/dd/bt
+sh m2h
+sh bf
+sh bf1
+
