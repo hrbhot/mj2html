@@ -10,7 +10,8 @@ Find mp3/jpg files, and generate list.html to browse.
 
 ## jenkins
 Put the process in Jenkins .Too cool
-![image](http://github.com/hrbhot/mj2html/raw/master/images/jenkins.jpg)
+
+![image](https://github.com/hrbhot/mj2html/raw/master/images/jenkins.jpg)
 
 
 
