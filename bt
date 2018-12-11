@@ -42,4 +42,4 @@ find -name "wlm*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li
 find -name "wtj*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$5"</li>"}' >  wtjtt.html;
 find -name "leijun*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$5"</li>"}' >  leijuntt.html;
 find ./jour/*/*/*/ -name "*.mp3" | sort| grep -a -v indextt.html| awk -F'[/.]' '{print "<li audiourl=\"./"$0"\" cover=\"\" artist=\"\">"$7"</li>"}' > tingtt.html;
-mv *t.html /data/dd/dd/temp;
+mv *t.html /temp;
